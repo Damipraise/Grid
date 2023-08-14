@@ -1,0 +1,31 @@
+.grid-display{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 40px auto 150px;
+    min-height: 100vh;
+}
+#Header{
+    background-color: brown;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#Left-sidebar{
+    background-color: rgba(196, 4, 4, 0.979);
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#Content{
+    background-color: rgb(218, 165, 32);
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#Right-sidebar{
+    background-color: gold;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#Footer{
+    background-color: burlywood;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
